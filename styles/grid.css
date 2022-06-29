@@ -1,0 +1,114 @@
+body {
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer";
+    grid-template-rows: 80px 1fr 55px;
+    grid-template-columns: 1fr 350px;
+}
+
+::selection {
+    background-color: #242A2B;
+    color: white
+}
+
+::moz-selection {
+    background-color: #242A2B;
+    color: white
+}
+
+header {
+    grid-area: header;
+    background-color: #637378;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit
+}
+
+
+main {
+    grid-area: main;
+    background-color: #FCFFFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+main > p {
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+main > h2 {
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: 3px;
+    font-size: 8em;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #242A2B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+aside > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+aside > p {
+    padding: 25px;
+}
+
+.menu {
+    margin-right: 16px;
+}
+
+
+footer {
+    grid-area: footer;
+    background-color:#31383B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.subitem {
+    display: inline;
+    margin-left: 16px;
+
+}
+
+.subitem > img {
+    width: 2.4em;
+    height: 2.4em;
+}
+
+.logo > img { 
+    margin-left: 20px;
+}
+
+.logo > h1 {
+    margin-left: 20px;
+    font-family: 'Syncopate', sans-serif;
+}
+

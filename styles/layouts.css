@@ -1,0 +1,38 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    /* position: static ---- padrão da página, um abaixo do outro p uma div */
+}
+
+.box1 {
+    background-color: antiquewhite;
+    position: relative;
+    left: 200px;
+    top: 80px;
+    
+
+}
+
+.box2 {
+    background-color: cadetblue;
+    position: fixed;
+
+}
+
+.footer {
+    background-color: darkslategray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    color: white
+    
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+
+}

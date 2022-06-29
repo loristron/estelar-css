@@ -1,0 +1,34 @@
+
+body {
+    display: flex;
+    margin: 0;  
+    height: 100vh;
+    box-sizing: border-box;
+    
+
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 12vw;
+    height: 35vh;
+}
+
+
+.white {
+    background-color: antiquewhite;
+}
+
+.blue {
+    background-color: cadetblue;
+}
+
+.yellow {
+    background-color: khaki;
+}
+

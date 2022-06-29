@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white
+}
+
+.main {
+    padding: 16px;
+    border: 10px groove black;
+
+    box-sizing: border-box;
+    height: 100%;
+    color: red;
+    background-image: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSE58GhiwuCo3FFNTjO6Rj6A6YZydjkMmtW5JTgtWbVAqgyjKVcQpuwH9lusPlqMTyaztntwBB0ke7sSeUUf88');
+    background-repeat: no-repeat;
+    background-position: top top;
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-size: 100% 50%; */
+    background-origin: padding-box;
+    /* background-origin: padding-box; */
+
+    background-clip: border-box;
+    background-attachment: fixed;
+
+    /* shorhand */
+    /* background: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSE58GhiwuCo3FFNTjO6Rj6A6YZydjkMmtW5JTgtWbVAqgyjKVcQpuwH9lusPlqMTyaztntwBB0ke7sSeUUf88')
+    no-repeat right top / 100% 50% content-box border-box fixed; */
+
+}
+
+
